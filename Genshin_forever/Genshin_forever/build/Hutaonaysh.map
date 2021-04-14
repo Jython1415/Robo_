@@ -11,7 +11,7 @@ Archive member included to satisfy reference by file (symbol)
 /Applications/VEXcode V5 Text.app/Contents/Resources/sdk/vexv5/libv5rt.a(vex_global.cpp.obj)
                               build/src/visual.o (vex::white)
 /Applications/VEXcode V5 Text.app/Contents/Resources/sdk/vexv5/libv5rt.a(vex_motor.cpp.obj)
-                              build/src/driver_control.o (vex::motor::~motor())
+                              build/src/auton_control.o (vex::motor::~motor())
 /Applications/VEXcode V5 Text.app/Contents/Resources/sdk/vexv5/libv5rt.a(vex_controller.cpp.obj)
                               build/src/driver_control.o (vex::controller::~controller())
 /Applications/VEXcode V5 Text.app/Contents/Resources/sdk/vexv5/libv5rt.a(vex_task.cpp.obj)
@@ -56,16 +56,19 @@ __vex_critical_section
 Discarded input sections
 
  .text          0x0000000000000000        0x0 build/src/auton_control.o
- .text._Z5rightf
-                0x0000000000000000       0x4c build/src/auton_control.o
- .ARM.exidx.text._Z5rightf
+ .text._Z13left_movementfib
+                0x0000000000000000      0x548 build/src/auton_control.o
+ .ARM.exidx.text._Z13left_movementfib
+                0x0000000000000000        0x8 build/src/auton_control.o
+ .text._Z14right_movementfib
+                0x0000000000000000      0x548 build/src/auton_control.o
+ .ARM.exidx.text._Z14right_movementfib
                 0x0000000000000000        0x8 build/src/auton_control.o
  .text._Z9pre_autonv
                 0x0000000000000000        0x4 build/src/auton_control.o
  .ARM.exidx.text._Z9pre_autonv
                 0x0000000000000000        0x8 build/src/auton_control.o
- .bss.power     0x0000000000000000        0x4 build/src/auton_control.o
- .llvm_addrsig  0x0000000000000000        0x1 build/src/auton_control.o
+ .llvm_addrsig  0x0000000000000000        0x7 build/src/auton_control.o
  .text          0x0000000000000000        0x0 build/src/driver_control.o
  .text._Z4spinN3vex5motorEi
                 0x0000000000000000       0x30 build/src/driver_control.o
